@@ -16,5 +16,7 @@ public class Bioskop {
         double total = subtotal - diskon + pajak;
 
         Pemesanan.cetakBukti(pemesan, daftarTiket, subtotal, diskon, pajak, total);
+
+        Struk.cetak(pemesan, daftarTiket, subtotal, diskon, pajak, total);
     }
 }
